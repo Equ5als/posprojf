@@ -1,0 +1,21 @@
+se.kth.iv1350.posproj.integration.NonExistentItemException: Invalid identifier entered for an item that does not exist in the database.
+	at se.kth.iv1350.posproj.integration.NonExistentItemLogger.<init>(NonExistentItemLogger.java:21)
+	at se.kth.iv1350.posproj.model.ItemRegistry.addItem(ItemRegistry.java:50)
+	at se.kth.iv1350.posproj.controller.Controller.registerItem(Controller.java:52)
+	at se.kth.iv1350.posproj.view.View.registerItem(View.java:77)
+	at se.kth.iv1350.posproj.view.View.getSaleStarted(View.java:29)
+	at se.kth.iv1350.posproj.startup.Main.main(Main.java:21)
+se.kth.iv1350.posproj.integration.DatabaseConnectionException: Something went wrong when connecting to the database to retrieve information.
+	at se.kth.iv1350.posproj.integration.DatabaseConnectionLogger.<init>(DatabaseConnectionLogger.java:20)
+	at se.kth.iv1350.posproj.model.ItemRegistry.addItem(ItemRegistry.java:54)
+	at se.kth.iv1350.posproj.controller.Controller.registerItem(Controller.java:52)
+	at se.kth.iv1350.posproj.view.View.registerItem(View.java:77)
+	at se.kth.iv1350.posproj.view.View.getSaleStarted(View.java:34)
+	at se.kth.iv1350.posproj.startup.Main.main(Main.java:21)
+se.kth.iv1350.posproj.integration.NonExistentItemException: Invalid identifier entered for an item that does not exist in the database.
+	at se.kth.iv1350.posproj.integration.NonExistentItemLogger.<init>(NonExistentItemLogger.java:21)
+	at se.kth.iv1350.posproj.model.ItemRegistry.addItem(ItemRegistry.java:50)
+	at se.kth.iv1350.posproj.controller.Controller.registerItem(Controller.java:52)
+	at se.kth.iv1350.posproj.view.View.registerItem(View.java:77)
+	at se.kth.iv1350.posproj.view.View.getSaleStarted(View.java:49)
+	at se.kth.iv1350.posproj.startup.Main.main(Main.java:21)
