@@ -27,8 +27,10 @@ public class RegisterMoneyHandler {
     }
 
     private void notifyObservers() {
-        for(RegisterObserver observer : observers) {
-            observer.newSalePayment(this.registerBalance);
+       if(observers.size() > 0) {
+            for (RegisterObserver observer : observers) {
+                observer.newSalePayment(this.registerBalance);
+            }
         }
     }
 
